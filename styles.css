@@ -44,25 +44,33 @@ h4 { margin-left:10px;
  #gauche {
  	background-color: #86BBD8;
  	width:25%;
- 	border-top: solid lightgreen;
+ 	border-top: solid  #9FE694;
  	margin-bottom: 10px:;
+ 	padding-right: 100px
  }
  .droite {
  	vertical-align: top;
  	margin-left: 30px;
+ 	width: 100%;
  	
  }
  h5 { font-size: 25px;
 	margin-top:35px;
 	margin-bottom:2px;
-
- 	border-bottom: solid lightgreen;
+ 	border-bottom: solid  #9FE694;
+ 	width: 50%
+ 	
  }
  #centre{
  	text-align: center;
  }
  h6 {
- 	text-align: center;margin-left:110%;margin-top:30px;font-style:bold;font-size:200%;margin-bottom:13px;
+ 	text-align: center;
+ 	margin-top:30px;
+ 	font-style:bold;
+ 	font-size:200%;
+ 	margin-bottom:13px;
+ 	width: 100%;
 }
 .italic {
 	font-style: italic;
@@ -70,4 +78,8 @@ h4 { margin-left:10px;
 
 .ligne {
 	margin-top: -10px;
+}
+
+.grandcorps {
+	display: flex;
 }
